@@ -90,7 +90,7 @@ def get_end_page_num(root_url):
 if __name__ == '__main__':
     root_url = 'http://permit.mep.gov.cn/permitExt/outside/Publicity'
     # end_page_num = get_end_page_num(root_url)
-    # 将1换为end_page_num可以获取全部数据
+    # 将4换为end_page_num可以获取全部数据
     end_page_num = 4
     data = crawler_pageform(root_url, end_page_num)
     write_to_excel(data)

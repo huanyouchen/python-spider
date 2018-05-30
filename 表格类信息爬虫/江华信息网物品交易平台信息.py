@@ -1,5 +1,4 @@
-# 存储信息到excel表中
-# 进一步完善，名称，发布时间，价格，区域，联系人，联系电话
+# coding=utf-8
 import os
 import re
 import requests
